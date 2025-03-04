@@ -1,0 +1,38 @@
+body {
+    color: #FFFFFF; /* tekstkleur */
+    background-color: #373431;
+   
+}
+
+.jua {
+    font-family: 'Jua', Times, 'Times New Roman', serif ;
+}
+
+.julee {
+    font-family: 'Julee', Times, 'Times New Roman', serif ;
+}
+
+nav {
+    background-color: #F18C23; /* Donkerblauwe achtergrondkleur voor de navigatiebalk */
+    overflow: hidden; /* Zorgt ervoor dat de inhoud niet buiten de navigatiebalk valt */
+}
+
+nav a {
+    display: block;
+    padding: 24px 80px; /* Wat ruimte rondom de tekst in de links */
+    text-decoration: none; /* Verwijdert de standaard onderlijning van links */
+    font-size: 16px; /* Instelt de grootte van de tekst */
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Julee', Times, 'Times New Roman', serif
+}
+
+.logo {
+    align-items: right;
+    max-width: 120px;
+}
