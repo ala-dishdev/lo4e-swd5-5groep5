@@ -20,16 +20,18 @@
     <link rel="icon" href="fotos/logo_umami_sushi_1.png" type="image/x-icon">
     <!-- link naar de stylesheet-->
     <link rel="stylesheet" href="styletijs.css">
+    <link href='https://fonts.googleapis.com/css?family=Julee' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Jua' rel='stylesheet'>
 </head>
 
 <body>
     <header>
         <nav>
             <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="vactures.html">Vactures</a></li>
-            <li><a href="reserveren.html">Reserveren</a></li>
-            <li><a href="open.html">Openingstijden en Locatie</a></li>
+            <li><a href="eten.php">Menu</a></li>
+            <li><a href="vactures.php">Vactures</a></li>
+            <li><a href="reserveren.php">Reserveren</a></li>
+            <li><a href="tijden.php">Openingstijden en Locatie</a></li>
         </nav>
         <img src="fotos/logo.png" alt="logo" class="logo">
     </header>

@@ -16,11 +16,23 @@ header>nav {
 a:link {
     text-decoration: none;
     color: aliceblue;
+    font-family: 'Julee','Jula' , 'Times', 'Times New Roman', serif ;
+}
+a:visited{
+    color: antiquewhite;
 }
 
 .logo {
     height: 7vw;
     float: right;
+}
+
+.jua {
+    font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif ;
+}
+
+.julee {
+    font-family: 'Julee','Jula' , 'Times', 'Times New Roman', serif ;
 }
 
 body {
