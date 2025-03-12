@@ -1,20 +1,20 @@
 <?php include "header.php" ?>
 <main>
-    <title>Reserveren</title>
+    <h1>Reserveren</h1>
     <article>
         Voornaam
         <input type="text">
         Achternaam
         <input type="text">
         Telefoon nummer
-        <input type="text">
+        <input type="number">
         Tijd van Reservatie
-        <input type="date">
+        <input type="time">
         Aatal Personen
-        <input type="text">
+        <input type="number">
     </article>
     <knop>
-        Zend
+        <input type="button" onclick="alert('Verzonden')" value="Zend">
     </knop>
 </main>
 <footer>
