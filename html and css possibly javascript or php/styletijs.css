@@ -1,0 +1,34 @@
+header {
+    flex-direction: row;
+    display: flex;
+    background-color: #e48d2f;
+    float: top;
+}
+
+header>nav {
+    flex: 6;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo {
+    height: 7vw;
+}
+
+body {
+    background-color: #33312f;
+}
+
+header2 {
+    background-color:
+        #dd5e51;
+    width: 100vw;
+    height: 66vw;
+}
