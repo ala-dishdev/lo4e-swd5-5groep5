@@ -26,8 +26,12 @@ a:visited{
     height: 7vw;
     float: right;
 }
-
+h1{
+    color: white;
+    font-family: 'Julee','Jula' , 'Times', 'Times New Roman', serif ;
+}
 .jua {
+    color: white;
     font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif ;
 }
 
