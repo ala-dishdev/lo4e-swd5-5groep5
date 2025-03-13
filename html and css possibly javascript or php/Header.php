@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <!--Zorgt ervoor dat de pagina correct word weergegeven op mobiele apparaten.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!--SEO (search engen optimation) Metagegevens -->
@@ -29,20 +29,16 @@
         <nav>
             <li><a href="index.html">Home</a></li>
             <li><a href="eten.php">Menu</a></li>
-            <li><a href="vactures.php">Vactures</a></li>
+            <li><a href="vacatures.php">Vactures</a></li>
             <li><a href="reserveren.php">Reserveren</a></li>
             <li><a href="tijden.php">Openingstijden en Locatie</a></li>
         </nav>
         <img src="fotos/logo.png" alt="logo" class="logo">
     </header>
-    <div class="sushi">
-        
+    
+    <div class="sushi">        
     </div>
-    <main>
-        <header2>
-            
-        </header2>
-    </main>
+
     <footer>
     </footer>
 </body>
