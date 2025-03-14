@@ -12,37 +12,37 @@
                 <div class="day-box">
                     <h1>Maandag</h1>
                     <span>12:00 - 17:00</span>                    
-                    <img class="mini-logo" src="fotos/logo_umami_sushi_1.png" alt="Umami Sushi Logo">
+                    <img class="mini-logo" src="fotos/logo_Vis.png" alt="Umami Sushi Logo">
                 </div>
 
                 <div class="day-box">
                     <h1>Dinsdag</h1>
                     <span>12:00 - 17:00</span>
-                    <img class="mini-logo" src="fotos/logo_umami_sushi_1.png" alt="Umami Sushi Logo">
+                    <img class="mini-logo" src="fotos/logo_Vis.png" alt="Umami Sushi Logo">
                 </div>
 
                 <div class="day-box">
                     <h1>Woensdag</h1>
                     <span>10:00 - 17:00</span>
-                    <img class="mini-logo" src="fotos/logo_umami_sushi_1.png" alt="Umami Sushi Logo">
+                    <img class="mini-logo" src="fotos/logo_Vis.png" alt="Umami Sushi Logo">
                 </div>
 
                 <div class="day-box">
                     <h1>Donderdag</h1>
                     <span>10:00 - 17:00</span>
-                    <img class="mini-logo" src="fotos/logo_umami_sushi_1.png" alt="Umami Sushi Logo">
+                    <img class="mini-logo" src="fotos/logo_Vis.png" alt="Umami Sushi Logo">
                 </div>
 
                 <div class="day-box">
                     <h1>Vrijdag</h1>
                     <span>13:00 - 18:00</span>
-                    <img class="mini-logo" src="fotos/logo_umami_sushi_1.png" alt="Umami Sushi Logo">
+                    <img class="mini-logo" src="fotos/logo_Vis.png" alt="Umami Sushi Logo">
                 </div>
 
                 <div class="day-box">
                     <h1>Weekend</h1>
                     <span>09:30 - 17:00</span>
-                    <img class="mini-logo" src="fotos/logo_umami_sushi_1.png" alt="Umami Sushi Logo">
+                    <img class="mini-logo" src="fotos/logo_Vis.png" alt="Umami Sushi Logo">
                 </div>
             </div>
         </div>

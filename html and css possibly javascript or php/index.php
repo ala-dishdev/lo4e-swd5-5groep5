@@ -9,6 +9,19 @@
 
 </head>
 <body>
+    <header>
+        <nav>
+                <a href="index.html">home</a>
+                <a href="eten.php">eten</a>
+                <a href="tijden.php">tijden</a>
+                <a href="reserveren.php">reserveren</a>
+                <a href="vactures.php">vacatures</a>
+
+        </nav>
+        <article>
+            <img src="fotos/logo.png" alt="Umami Sushi Logo">
+         </article>
+    </header>
     <main>
         <section class="text">
         <iframe class="ytlink" width="560" height="315" src="https://www.youtube.com/embed/0VB_DrsHDQ0?si=OfPJtUZUWl7KhMtC" title="sushi vid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
