@@ -1,38 +1,78 @@
 body {
-    color: #FFFFFF; /* tekstkleur */
-    background-color: #373431;
-   
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #2d2d2d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
-.jua {
-    font-family: 'Jua', Times, 'Times New Roman', serif ;
+/* Navigatiebalk */
+header {
+    height: 10vh;
+    display: flex;
+    background-color: #ff7f27;
+    padding: 15px;
+    justify-content: space-between;
 }
-
-.julee {
-    font-family: 'Julee', Times, 'Times New Roman', serif ;
+header article {
+   height: 100%; 
 }
+header article img{
+    height: 150%; 
+ }
 
 nav {
-    background-color: #F18C23; /* Donkerblauwe achtergrondkleur voor de navigatiebalk */
-    overflow: hidden; /* Zorgt ervoor dat de inhoud niet buiten de navigatiebalk valt */
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 nav a {
-    display: block;
-    padding: 24px 80px; /* Wat ruimte rondom de tekst in de links */
-    text-decoration: none; /* Verwijdert de standaard onderlijning van links */
-    font-size: 16px; /* Instelt de grootte van de tekst */
-    color: #FFFFFF;
-    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
 }
 
-.container {
+/* Introductiesectie */
+.intro {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.ytlink {
+    border-radius: 10px;
+    margin: 15px auto;
+    float: right;
+}
+
+.slogan {
+    font-style: italic;
+    color: #ff7f27;
+    float: right;
+    font-size: 50px;
+}
+
+/* Galerij */
+.gallery {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 24%;
+    border-radius: 60px;
+    justify-content: stretch;
+}
+footer {
+    height: 10vh;
     display: flex;
-    flex-direction: row;
-    font-family: 'Julee', Times, 'Times New Roman', serif
+    background-color: #ff7f27;
+    padding: 15px;
+    justify-content: space-between;
 }
-
-.logo {
-    align-items: right;
-    max-width: 120px;
+.text {
+    font-size: 50px;
 }
