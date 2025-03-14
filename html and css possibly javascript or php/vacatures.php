@@ -1,11 +1,29 @@
 <?php include "header.php" ?>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sollicitatieformulier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <main>
-        <div class="vacatures-container">
-            <h1 class="jua">Vacatures</h1>
-            <h2>Wij hebben op dit moment de volgende vacatures.</h2>
+    <form class="sollicitatie-formulier" action="submit.php" method="post">
+        <label for="naam">naam:</label>
+        <input type="text" id="naam" name="naam" required>
 
+        <label for="leeftijd">leeftijd:</label>
+        <input type="number" id="leeftijd" name="leeftijd" required>
+
+        <label for="contact">email/telefoonnummer:</label>
+        <input type="text" id="contact" name="contact" required>
+
+        <label for="motivatie">waarom wil je hier werken:</label>
+        <textarea id="motivatie" name="motivatie" rows="3" required></textarea>
+
+        <label for="ervaring">ervaringen:</label>
+        <textarea id="ervaring" name="ervaring" rows="3" required></textarea>
+
+        <button>submit</button>
         </div>
     </main>
 

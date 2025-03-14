@@ -28,7 +28,7 @@
         </div>
 
         <knop>
-            <input type="button" onclick="alert('Verzonden')" value="Zend">
+            <input type="button" onclick="alert('Verzonden')" value="Send">
         </knop>
     </main>
     <footer>
