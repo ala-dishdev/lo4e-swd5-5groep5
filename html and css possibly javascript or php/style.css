@@ -1,26 +1,16 @@
-body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #2d2d2d;
-    color: #fff;
+/* Algemene opmaak */
+html, body {
+    height: 100%; /* Zorgt ervoor dat de pagina altijd de volledige hoogte gebruikt */
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif ;;
+    background-color: #2d2d2d;
+    color: #fff;
 }
 
 /* Navigatiebalk */
-header {
-    height: 10vh;
-    display: flex;
-    background-color: #ff7f27;
-    padding: 15px;
-    justify-content: space-between;
-}
-header article {
-   height: 100%; 
-}
-header article img{
-    height: 150%; 
- }
-
 nav {
     list-style: none;
     display: flex;
@@ -33,6 +23,15 @@ nav a {
     font-size: 30px;
 }
 
+/* Main content */
+main {
+    flex: 1; /* Zorgt ervoor dat de main-sectie alle beschikbare ruimte opvult */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Introductiesectie */
 .intro {
     text-align: center;
@@ -41,17 +40,19 @@ nav a {
     border-radius: 20px;
 }
 
+/* YouTube Video */
 .ytlink {
     border-radius: 10px;
     margin: 15px auto;
     float: right;
 }
 
+/* Slogan */
 .slogan {
     font-style: italic;
     color: #ff7f27;
-    float: right;
     font-size: 50px;
+    text-align: center;
 }
 
 /* Galerij */
@@ -59,20 +60,26 @@ nav a {
     display: grid;
     gap: 20px;
     padding: 20px;
+    justify-content: center;
 }
 
 .gallery img {
     width: 24%;
     border-radius: 60px;
-    justify-content: stretch;
 }
-footer {
-    height: 10vh;
-    display: flex;
-    background-color: #ff7f27;
-    padding: 15px;
-    justify-content: space-between;
-}
+
+/* Tekstgrootte aanpassen */
 .text {
-    font-size: 50px;
+    font-size: 30px;
+    text-align: left;
+    max-width: 80%;
+    margin: auto;
 }
+.sushi {
+    background-color:
+        #dd5e51;
+    width: 100vw;
+    height: 3vw;
+}
+/* Footer onderaan de pagina */
+

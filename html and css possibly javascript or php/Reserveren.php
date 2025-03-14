@@ -32,5 +32,6 @@
         </knop>
     </main>
     <footer>
-    </footer>
+            <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
+        </footer>
 </body>

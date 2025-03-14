@@ -27,7 +27,7 @@
 <body>
     <header>
         <nav>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="eten.php">Menu</a></li>
             <li><a href="vacatures.php">Vactures</a></li>
             <li><a href="reserveren.php">Reserveren</a></li>
@@ -38,7 +38,7 @@
     
     <div class="sushi">        
     </div>
-
-    <footer>
-    </footer>
+    
 </body>
+
+       

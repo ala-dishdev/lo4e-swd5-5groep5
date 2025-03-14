@@ -1,31 +1,18 @@
 <!DOCTYPE html>
 <html lang="nl">
+<?php include "header.php"?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umami Sushi</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julee">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua    ">
+
 </head>
 <body>
-    <header>
-        <nav>
-                <a href="index.html">home</a>
-                <a href="eten.html">eten</a>
-                <a href="tijden.html">tijden</a>
-                <a href="reserveren.html">reserveren</a>
-                <a href="vactures.html">vacatures</a>
-
-        </nav>
-        <article>
-            <img src="fotos/logo.png" alt="Umami Sushi Logo">
-         </article>
-    </header>
     <main>
         <section class="text">
-            <p>Hier bij Umami Sushi hebben wij jaren gespendeerd <br> en duizenden euros uitgegeven om <br> de beste chefs en gerechten te verkrijgen <br> zodat u de beste ervaring heeft die u ooit in een sushi restaurant heeft gehad.</p>
         <iframe class="ytlink" width="560" height="315" src="https://www.youtube.com/embed/0VB_DrsHDQ0?si=OfPJtUZUWl7KhMtC" title="sushi vid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Hier bij Umami Sushi hebben wij jaren gespendeerd en duizenden euros uitgegeven om de beste chefs en gerechten te verkrijgen zodat u de beste ervaring heeft die u ooit in een sushi restaurant heeft gehad.</p>
         </section>
         <section class="intro">
             <p class="slogan">A world of sushi awaits you!</p>
@@ -40,10 +27,10 @@
             </div>
         </section>
     </main>
-    
+
     <footer>
-        <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
-    </footer>
+            <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
+        </footer>
 </body>
 </html>
 
