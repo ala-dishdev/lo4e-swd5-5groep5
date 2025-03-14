@@ -1,0 +1,194 @@
+header {
+    flex-direction: row;
+    display: flex;
+    background-color: #e48d2f;
+    float: top;
+}
+
+header>nav {
+    flex: 6;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+a:link {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Julee','Jula' , 'Times', 'Times New Roman', serif ;
+}
+a:visited{
+    color: antiquewhite;
+}
+
+.logo {
+    height: 7vw;
+    float: right;
+}
+
+
+/* fonts en headers */
+
+h1{
+    font-size: 24px;
+    font-weight: bold;    
+}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;    
+    margin-bottom: 20px;
+}
+
+.jua {    
+    font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif ;
+}
+
+.julee {
+    font-family: 'Julee', 'Jula' , 'Times', 'Times New Roman', serif ;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #33312f;
+    color: white;
+    text-align: left;
+}
+
+
+.sushi {
+    background-color:
+        #dd5e51;
+    width: 100vw;
+    height: 3vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+/* eten */
+.eten-container {
+    /* links met 10% margin */    
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10vw;
+    align-self: flex-start;
+    width: 75%;
+}
+
+.columns-container {
+    /* in het midden met vaste max breedte */
+    max-width: 800px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* inhoud in flex kolommen */
+    display: flex;
+    flex-direction: row;
+}
+
+.column-left {
+    width: 50%;
+    height: 80vh;
+}
+
+.column-right {
+    width: 50%;
+}
+
+.gerecht {
+    margin-top: 10;
+    font-size: 14px;
+}
+.uitleg {    
+    font-size: 12px;
+}
+
+
+
+/* vacatures */
+.vacatures-container {
+    /* links met 10% margin */    
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10vw;
+    align-self: flex-start;
+}
+
+
+/* grid voor openingstijden */
+
+.days-container {
+    /* in het midden met vaste max breedte */
+    max-width: 800px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.day-box {
+    background-color: lightgray;
+    color: black;
+    width: 180px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif ;
+}       
+
+.mini-logo {
+    position: relative;
+    align-self: flex-end;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* formulier voor reserveringen */
+
+.form-container {
+    background-color: lightgray;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;    
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {    
+    display: block;    
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}     
