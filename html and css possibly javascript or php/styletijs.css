@@ -137,18 +137,14 @@ main {
 
 .days-container {
     /* in het midden met vaste max breedte */
-    max-width: 800px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+     justify-content: center;
+     gap: 15px;
 }
 
 .day-box {
@@ -174,6 +170,24 @@ main {
     height: 30px;
 }
 
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+         justify-content: center;
+         gap: 15px;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+         justify-content: center;
+         gap: 15px;
+    } 
+}
 
 
 /* formulier voor reserveringen */
