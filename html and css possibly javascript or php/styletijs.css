@@ -18,9 +18,10 @@ header>nav {
 a:link {
     text-decoration: none;
     color: aliceblue;
-    font-family: 'Julee','Jula' , 'Times', 'Times New Roman', serif ;
+    font-family: 'Julee', 'Jula', 'Times', 'Times New Roman', serif;
 }
-a:visited{
+
+a:visited {
     color: antiquewhite;
 }
 
@@ -31,46 +32,53 @@ a:visited{
 }
 
 @media screen and (max-width: 480px) {
-    header>nav{
+    header>nav {
         flex-direction: column;
         align-items: center;
     }
-    .logo{
+
+    .logo {
 
         visibility: hidden;
     }
-    } 
-    @media (min-width: 481px) and (max-width: 1024px) {
-        .logo{
-            display: none;
-        }
-        header { 
-            height: 50px;
-
-        }
-        header>nav {
-          
-            font-size: 20px;
-            ; }}
-/* fonts en headers */
-
-h1{
-    font-size: 28px;
-    font-weight: bold;    
 }
 
-h2{
+@media (min-width: 481px) and (max-width: 1024px) {
+    .logo {
+        display: none;
+    }
+
+    header {
+        height: 50px;
+
+    }
+
+    header>nav {
+
+        font-size: 20px;
+        ;
+    }
+}
+
+/* fonts en headers */
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
     font-size: 18px;
-    font-weight: bold;    
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
-.jua {    
-    font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif ;
+.jua {
+    font-family: 'Jua', 'Julee', 'Times', 'Times New Roman', serif;
 }
 
 .julee {
-    font-family: 'Julee', 'Jula' , 'Times', 'Times New Roman', serif ;
+    font-family: 'Julee', 'Jula', 'Times', 'Times New Roman', serif;
 }
 
 
@@ -79,7 +87,8 @@ body {
     background-color: #33312f;
     color: white;
     text-align: left;
-    height: 100%; /* Zorgt ervoor dat de pagina altijd de volledige hoogte gebruikt */
+    height: 100%;
+    /* Zorgt ervoor dat de pagina altijd de volledige hoogte gebruikt */
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -99,7 +108,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1; /* Neemt alle beschikbare ruimte in beslag, waardoor de footer naar beneden wordt geduwd */
+    flex: 1;
+    /* Neemt alle beschikbare ruimte in beslag, waardoor de footer naar beneden wordt geduwd */
 }
 
 
@@ -107,7 +117,7 @@ main {
 
 /* eten */
 .eten-container {
-    /* links met 10% margin */    
+    /* links met 10% margin */
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10vw;
@@ -141,7 +151,8 @@ main {
     margin-top: 10;
     font-size: 14px;
 }
-.uitleg {    
+
+.uitleg {
     font-size: 12px;
 }
 
@@ -149,7 +160,7 @@ main {
 
 /* vacatures */
 .vacatures-container {
-    /* links met 10% margin */    
+    /* links met 10% margin */
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10vw;
@@ -167,8 +178,8 @@ main {
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
-     justify-content: center;
-     gap: 15px;
+    justify-content: center;
+    gap: 15px;
 }
 
 .day-box {
@@ -183,8 +194,8 @@ main {
     border-radius: 10px;
     position: relative;
     font-weight: bold;
-    font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif ;
-}       
+    font-family: 'Jua', 'Julee', 'Times', 'Times New Roman', serif;
+}
 
 .mini-logo {
     position: relative;
@@ -199,18 +210,18 @@ main {
     .grid {
         display: grid;
         grid-template-columns: auto auto;
-         justify-content: center;
-         gap: 15px;
-    } 
+        justify-content: center;
+        gap: 15px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .grid {
         display: grid;
         grid-template-columns: auto;
-         justify-content: center;
-         gap: 15px;
-    } 
+        justify-content: center;
+        gap: 15px;
+    }
 }
 
 
@@ -220,30 +231,32 @@ main {
     background-color: lightgray;
     padding: 40px;
     border-radius: 10px;
-    width: 300px;    
+    width: 300px;
 }
+
 .form-group {
     margin-bottom: 15px;
 }
-label {    
-    display: block;    
+
+label {
+    display: block;
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 input {
     width: 100%;
     padding: 8px;
     border: none;
     border-radius: 5px;
-}     
+}
+
 footer {
     background-color: #e48d2f;
     padding: 15px;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
-
-
-
-
-
-
