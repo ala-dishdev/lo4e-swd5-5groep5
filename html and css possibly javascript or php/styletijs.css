@@ -12,6 +12,7 @@ header>nav {
     justify-content: space-around;
     list-style-type: none;
     font-size: 24px;
+    ;
 }
 
 a:link {
@@ -42,11 +43,19 @@ a:visited{
     @media (min-width: 481px) and (max-width: 1024px) {
         .logo{
             display: none;
-        }}
+        }
+        header { 
+            height: 50px;
+
+        }
+        header>nav {
+          
+            font-size: 20px;
+            ; }}
 /* fonts en headers */
 
 h1{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;    
 }
 
@@ -92,6 +101,7 @@ main {
     align-items: center;
     flex: 1; /* Neemt alle beschikbare ruimte in beslag, waardoor de footer naar beneden wordt geduwd */
 }
+
 
 
 
