@@ -25,10 +25,24 @@ a:visited{
 
 .logo {
     height: 7vw;
+    width: 10vw;
     float: right;
 }
 
+@media screen and (max-width: 480px) {
+    header>nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
 
+        visibility: hidden;
+    }
+    } 
+    @media (min-width: 481px) and (max-width: 1024px) {
+        .logo{
+            display: none;
+        }}
 /* fonts en headers */
 
 h1{
