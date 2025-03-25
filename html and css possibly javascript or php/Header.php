@@ -35,10 +35,12 @@
         </nav>
         <img src="fotos/logo.png" alt="logo" class="logo">
     </header>
-    
-    <div class="sushi">        
-    </div>
-    
-</body>
 
-       
+    <div class="sushi">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>
