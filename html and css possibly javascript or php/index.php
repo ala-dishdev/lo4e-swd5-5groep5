@@ -29,9 +29,7 @@
         </section>
     </main>
     <img class="space" src="fotos/sushiphoto4.png" alt="Assorted sushi">
-    <footer>
-            <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
-        </footer>
+   
 </body>
 </html>
 
