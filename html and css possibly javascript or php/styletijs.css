@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 html{
     font-size: 100%;
 }
+=======
+/* header */
+
+>>>>>>> 7ddaa38909184912ab793b91aa56abfa891cf3ee
 header {
     flex-direction: row;
     display: flex;
