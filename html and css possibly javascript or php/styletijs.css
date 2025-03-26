@@ -1,3 +1,6 @@
+html{
+    font-size: 100%;
+}
 header {
     flex-direction: row;
     display: flex;
@@ -11,7 +14,8 @@ header>nav {
     align-self: center;
     justify-content: space-around;
     list-style-type: none;
-    font-size: 24px;
+    font-size: 1.5rem;
+    
     ;
 }
 
@@ -55,7 +59,7 @@ a:visited {
 
     header>nav {
 
-        font-size: 20px;
+        font-size: 1.3rem;
         
     }
 }
@@ -63,12 +67,12 @@ a:visited {
 /* fonts en headers */
 
 h1 {
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 1.3rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -150,11 +154,11 @@ main {
 
 .gerecht {
     margin-top: 10;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .uitleg {
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 
