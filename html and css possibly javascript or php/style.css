@@ -42,6 +42,21 @@ a:visited {
 
         display: none;
     }
+    .ytlink {
+        display: none;
+    }
+    /* Galerij */
+.gallery {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 40%;
+    border-radius: 10px;
+}
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -59,18 +74,26 @@ a:visited {
         font-size: 20px;
         
     }
+    /* YouTube Video */
+
+/* Galerij */
+.gallery {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
+.gallery img {
+    width: 24%;
+    border-radius: 60px;
+}
+}
+.ytlink {
+    border-radius: 10px;
+    margin: 15px auto;
+    float: right;
+    padding: 20px;
+}
 /* Algemene opmaak */
 html, body {
     height: 100%; /* Zorgt ervoor dat de pagina altijd de volledige hoogte gebruikt */
@@ -113,13 +136,7 @@ main {
     border-radius: 20px;
 }
 
-/* YouTube Video */
-.ytlink {
-    border-radius: 10px;
-    margin: 15px auto;
-    float: right;
-    padding: 20px;
-}
+
 
 /* Slogan */
 .slogan {
@@ -129,18 +146,7 @@ main {
     text-align: center;
 }
 
-/* Galerij */
-.gallery {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-    justify-content: center;
-}
 
-.gallery img {
-    width: 24%;
-    border-radius: 60px;
-}
 
 /* Tekstgrootte aanpassen */
 .text {
@@ -148,6 +154,9 @@ main {
     text-align: left;
     max-width: 80%;
     margin: auto;
+    font-family: 'Jua', 'Times', 'Times New Roman', serif;    
+    
+    
 }
 .sushi {
     background-color:
