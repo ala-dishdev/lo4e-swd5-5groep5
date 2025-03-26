@@ -41,7 +41,7 @@ a:visited {
 
     .logo {
 
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -58,7 +58,7 @@ a:visited {
     header>nav {
 
         font-size: 20px;
-        ;
+        
     }
 }
 
@@ -118,6 +118,7 @@ main {
 
 
 /* eten */
+
 .eten-container {
     /* links met 10% margin */
     margin-top: 0;
@@ -253,7 +254,6 @@ input {
     border-radius: 5px;
 }
 
-/* footer */
 footer {
     background-color: #e48d2f;
     padding: 15px;
@@ -262,4 +262,9 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.space{
+    visibility: hidden;
+    height: 8vh;
 }

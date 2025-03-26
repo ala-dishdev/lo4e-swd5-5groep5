@@ -17,7 +17,7 @@
 
     <title>Umami Sushi</title>
     <!-- Favicon kleine afbeelding die wordt weergegeven in de browser-tabbladen -->
-    <link rel="icon" href="fotos/logo_umami_sushi_1.png" type="image/x-icon">
+    <link rel="icon" href="fotos/logo_vis.png" type="image/x-icon">
     <!-- link naar de stylesheet-->
     <link rel="stylesheet" href="styletijs.css">
     <link href='https://fonts.googleapis.com/css?family=Julee' rel='stylesheet'>
@@ -35,10 +35,12 @@
         </nav>
         <img src="fotos/logo.png" alt="logo" class="logo">
     </header>
-    
-    <div class="sushi">        
-    </div>
-    
-</body>
 
-       
+    <div class="sushi">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>

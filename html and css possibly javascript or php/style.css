@@ -1,3 +1,99 @@
+/*  opmaak Header */
+header {
+    flex-direction: row;
+    display: flex;
+    background-color: #e48d2f;
+    float: top;
+}
+
+header>nav {
+    flex: 6;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 24px;
+    ;
+}
+
+a:link {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Julee', 'Jula', 'Times', 'Times New Roman', serif;
+}
+
+a:visited {
+    color: antiquewhite;
+}
+
+.logo {
+    height: 7vw;
+    width: 10vw;
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    header>nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+
+        display: none;
+    }
+    .ytlink {
+        display: none;
+    }
+    /* Galerij */
+.gallery {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 40%;
+    border-radius: 10px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .logo {
+        display: none;
+    }
+
+    header {
+        height: 50px;
+
+    }
+
+    header>nav {
+
+        font-size: 20px;
+        
+    }
+    /* YouTube Video */
+
+/* Galerij */
+.gallery {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.gallery img {
+    width: 24%;
+    border-radius: 60px;
+}
+}
+.ytlink {
+    border-radius: 10px;
+    margin: 15px auto;
+    float: right;
+    padding: 20px;
+}
 /* Algemene opmaak */
 html, body {
     height: 100%; /* Zorgt ervoor dat de pagina altijd de volledige hoogte gebruikt */
@@ -40,12 +136,7 @@ main {
     border-radius: 20px;
 }
 
-/* YouTube Video */
-.ytlink {
-    border-radius: 10px;
-    margin: 15px auto;
-    float: right;
-}
+
 
 /* Slogan */
 .slogan {
@@ -55,18 +146,7 @@ main {
     text-align: center;
 }
 
-/* Galerij */
-.gallery {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-    justify-content: center;
-}
 
-.gallery img {
-    width: 24%;
-    border-radius: 60px;
-}
 
 /* Tekstgrootte aanpassen */
 .text {
@@ -74,6 +154,9 @@ main {
     text-align: left;
     max-width: 80%;
     margin: auto;
+    font-family: 'Jua', 'Times', 'Times New Roman', serif;    
+    
+    
 }
 .sushi {
     background-color:
@@ -134,4 +217,21 @@ main {
 
 .sollicitatie-formulier button:hover {
     background: #e0d0b0;
+}
+
+/*footer*/
+
+footer {
+    background-color: #e48d2f;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.space{
+    visibility: hidden;
+    height: 8vh;
 }
