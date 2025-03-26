@@ -30,7 +30,24 @@ a:visited {
     width: 10vw;
     float: right;
 }
+@media (prefers-color-scheme: dark) {
+    header {
+        background-color: #e48d2f
+}
 
+.sushi {
+    background-color:
+        #dd5e51;
+    width: 100vw;
+    height: 3vw;
+}
+
+body {
+    background-color: #33312f;
+    color: white;
+}
+
+}
 @media screen and (max-width: 480px) {
     header>nav {
         flex-direction: column;
@@ -267,4 +284,47 @@ footer {
 .space{
     visibility: hidden;
     height: 8vh;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+    header {
+        background-color: #573511
+}
+
+.sushi {
+    background-color:
+        #7c352e;
+    width: 100vw;
+    height: 3vw;
+}
+
+body {
+    background-color: #33312f;
+    color: white;
+}
+footer {
+    background-color: #573511;
+  
+}
+}
+
+@media (prefers-color-scheme: licht) {
+    header {
+        background-color: #e48d2f
+}
+
+.sushi {
+    background-color:
+        #dd5e51;
+    width: 100vw;
+    height: 3vw;
+}
+
+body {
+    background-color: #999292;
+    color: rgb(0, 0, 0);
+}
+
 }
