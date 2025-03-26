@@ -1,3 +1,5 @@
+/* header */
+
 header {
     flex-direction: row;
     display: flex;
@@ -251,8 +253,6 @@ input {
     border: none;
     border-radius: 5px;
 }
-
-/*footer*/
 
 footer {
     background-color: #e48d2f;
