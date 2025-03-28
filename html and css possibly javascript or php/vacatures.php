@@ -25,7 +25,7 @@
             <label for="ervaring">ervaringen:</label>
             <textarea id="ervaring" name="ervaring" rows="3" required></textarea>
 
-            <button>submit</button>
+            <button onclick="alert('Uw verzoek is verstuurd en u word binnenkort gebeld of gemaild')">Submit</button>
             </div>
     </main>
     <img class="space" src="fotos/sushiphoto4.png" alt="Assorted sushi">
