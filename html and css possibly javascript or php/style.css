@@ -1,5 +1,6 @@
 
 
+
 header>nav {
     flex: 6;
     display: flex;
@@ -8,12 +9,11 @@ header>nav {
     list-style-type: none;
     font-size: 24px;
     ;
-}
+} 
 
 a:link {
     text-decoration: none;
     color: aliceblue;
-    font-family: 'Julee', 'Jula', 'Times', 'Times New Roman', serif;
 }
 
 a:visited {
@@ -95,7 +95,7 @@ html, body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif ;;
+    font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif;
     background-color: #2d2d2d;
     color: #fff;
 }
@@ -147,10 +147,8 @@ main {
     font-size: 30px;
     text-align: left;
     max-width: 80%;
-    margin: auto;
-    font-family: 'Jua', 'Times', 'Times New Roman', serif;    
-    
-    
+    margin: auto;    
+
 }
 .sushi {
     background-color:
@@ -162,7 +160,7 @@ main {
 
 /* Stijlen alleen voor het sollicitatieformulier */
 .sollicitatie-formulier {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Jua', 'Julee', 'Times', 'Times New Roman', serif;
     background-color: #2d2d2d;
     color: #f5e6cc;
     display: flex;
@@ -222,3 +220,7 @@ main {
     height: 8vh;
 }
 
+
+.jua {
+    font-family: 'Jua', 'Julee', 'Times', 'Times New Roman', serif;
+}
