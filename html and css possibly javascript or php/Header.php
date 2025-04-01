@@ -38,7 +38,7 @@
     </header>
 
     <div id="header2" class="sushi">
-        <button type="button" onclick=" contrast()" id="contrastknop">Verhoog contrast</button>
+        <button type="button" onclick=" contrast(); contrastheader()" id="contrastknop">Verhoog contrast</button>
         <button class="dark" type="button" onclick=" darkheader(); darkheader2(); dark(); darkfooter()">Dark mode</button>
         <button class="licht" type="button" onclick=" lichtheader(); lichtheader2(); licht(); lichtfooter()">licht mode</button>
         
@@ -56,6 +56,11 @@
 
         background-color: black;
         color: white;
+    }
+
+    .hoogheader{
+        background-color: white;
+        color: black;
     }
 
     .darkheader {
@@ -106,6 +111,12 @@
         var element = document.body;
         element.classList.toggle("hoog");
     }
+
+    function contrastheader() {
+        var element = document.getElementById("header1");
+        element.classList.toggle("hoogheader");
+    }
+
 
     function darkheader() {
         var element = document.getElementById("header1");
