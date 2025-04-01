@@ -20,12 +20,13 @@
     <link rel="icon" href="fotos/logo_vis.png" type="image/x-icon">
     <!-- link naar de stylesheet-->
     <link rel="stylesheet" href="styletijs.css">
+    <link rel="javaschript" href="toegang.js">
     <link href='https://fonts.googleapis.com/css?family=Julee' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Jua' rel='stylesheet'>
 </head>
 
 <body>
-    <header>
+    <header id="header1">
         <nav>
             <li><a href="index.php">Home</a></li>
             <li><a href="eten.php">Menu</a></li>
@@ -36,10 +37,12 @@
         <img src="fotos/logo.png" alt="logo" class="logo">
     </header>
 
-    <div class="sushi">
+    <div id="header2" class="sushi">
+    <button type="button" onclick="contrast()" id="contrastknop">Verhoog contrast</button>
+    <button type="button">Click Me!</button>
     </div>
 
-    <footer>
+    <footer id="footer">
         <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
     </footer>
 

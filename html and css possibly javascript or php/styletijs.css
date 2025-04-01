@@ -1,5 +1,4 @@
-
-html{
+html {
     font-size: 100%;
 }
 
@@ -22,7 +21,7 @@ header>nav {
     justify-content: space-around;
     list-style-type: none;
     font-size: 1.5rem;
-    
+
     ;
 }
 
@@ -67,7 +66,7 @@ a:visited {
     header>nav {
 
         font-size: 1.3rem;
-        
+
     }
 }
 
@@ -276,7 +275,7 @@ footer {
     width: 100%;
 }
 
-.space{
+.space {
     visibility: hidden;
     height: 8vh;
 }
@@ -286,48 +285,56 @@ footer {
 @media (prefers-color-scheme: dark) {
     header {
         background-color: #573511
+    }
+
+    .sushi {
+        background-color:
+            #7c352e;
+        width: 100vw;
+        height: 3vw;
+    }
+
+    body {
+        background-color: #33312f;
+        color: white;
+    }
+
+    footer {
+        background-color: #573511;
+
+    }
+
+    .day-box {
+        background-color: darkgray;
+        color: black;
+    }
+
+    .form-container {
+        background-color: darkgray;
+        color: black;
+    }
+
+    body {
+
+        background-color: #33312f;
+        color: white;
+    }
+
 }
 
-.sushi {
-    background-color:
-        #7c352e;
-    width: 100vw;
-    height: 3vw;
-}
-
-body {
-    background-color: #33312f;
-    color: white;
-}
-footer {
-    background-color: #573511;
-  
-}
-.day-box {
-    background-color: darkgray;
-    color: black;
-}
-
-.form-container {
-    background-color: darkgray;
-    color: black;
-}
-
-body {
- 
-    background-color: #33312f;
-    color: white;
-}
-
-}
-
-
+/*maakt de achtergrond lichter als lichtmode aanstaat*/
 @media (prefers-color-scheme: licht) {
 
-body {
-    background-color: #fbfbfb;
-    color: rgb(0, 0, 0);
+    body {
+        background-color: #fbfbfb;
+        color: rgb(0, 0, 0);
+    }
+
+
 }
 
+/*maakt het contrast groter als je op de contrast knop klikt*/
 
+.kleur {
+    background-color: #fbfbfb;
 }

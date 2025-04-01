@@ -1,4 +1,5 @@
 <?php include "header.php" ?>
+<link rel="javaschript" href="toegang.js">
 
 <body>
     <main>
