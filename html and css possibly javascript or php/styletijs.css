@@ -376,3 +376,15 @@ footer {
 
 }
 
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+

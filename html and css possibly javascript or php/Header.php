@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="nl">
-
+    <?php
+    session_start();
+    $_SESSION['fontsize'] = $_SESSION['fontsize'] ?? 16; // Stel standaard grootte in
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') 
+        $_SESSION['fontsize'] += isset($_POST['bigger']) ? 2 : (isset($_POST['smaller']) ? -2 : 0);
+        $_SESSION['fontsize'] = max(10, min(40, $_SESSION['fontsize']));
+        ?>
 <head>
     <meta charset="UTF-8">
     <!--Zorgt ervoor dat de pagina correct word weergegeven op mobiele apparaten.-->
@@ -25,7 +31,7 @@
     <link href='https://fonts.googleapis.com/css?family=Jua' rel='stylesheet'>
 </head>
 
-<body>
+<body style="font-size: <?php echo $_SESSION['fontsize']; ?>px;">
     <header id="header1">
         <nav>
             <li><a href="index.php">Home</a></li>
@@ -48,7 +54,13 @@
     <footer id="footer">
         <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
     </footer>
-
+    
+    <div class="content">
+        <form method="post">
+            <button type="submit" name="smaller">- Verkleinen</button>
+            <button type="submit" name="bigger">+ Vergroten</button>
+        </form>
+    </div>
 </body>
 
 <style>
