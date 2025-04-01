@@ -38,8 +38,11 @@
     </header>
 
     <div id="header2" class="sushi">
-    <button type="button" onclick="contrast()" id="contrastknop">Verhoog contrast</button>
-    <button type="button">Click Me!</button>
+        <button type="button" onclick=" contrast()" id="contrastknop">Verhoog contrast</button>
+        <button type="button" onclick=" darkheader(); darkheader2(); dark(); darkfooter()">Dark mode</button>
+        <button type="button" onclick=" lichtheader(); lichtheader2(); licht(); lichtfooter()">licht mode</button>
+        <button onclick="myFunction()">Try it</button>
+        <div id="myDIV"></div>
     </div>
 
     <footer id="footer">
@@ -47,3 +50,106 @@
     </footer>
 
 </body>
+
+<style>
+    .mystyle {
+
+        background-color: black;
+
+    }
+
+    .darkheader {
+        background-color: #573511
+    }
+
+    .darkheader2 {
+
+        background-color: #7c352e;
+        width: 100vw;
+        height: 3vw;
+    }
+
+    .dark {
+        background-color: #33312f;
+        color: white;
+    }
+
+    .darkfooter {
+        background-color: #573511;
+
+    }
+
+    .lichtheader {
+        background-color: #e48d2f;
+    }
+
+    .lichtheader2 {
+
+        background-color:  #dd5e51;
+    }
+
+    .licht {
+        background-color: #7d6e5b;
+        color: rgb(30, 18, 18);
+    }
+
+    .lichtfooter {
+        background-color: #e48d2f;
+
+    }
+</style>
+
+
+
+<script>
+    function contrast() {
+        var element = document.body;
+        element.classList.toggle("mystyle");
+    }
+
+    function darkheader() {
+        var element = document.getElementById("header1");
+        element.classList.toggle("darkheader");
+    }
+
+    function darkheader2() {
+        var element = document.getElementById("header2");
+        element.classList.toggle("darkheader2");
+    }
+
+    function dark() {
+        var element = document.body;
+        element.classList.toggle("dark");
+    }
+
+    function darkfooter() {
+        var element = document.getElementById("footer");
+        element.classList.toggle("darkfooter");
+    }
+
+   
+
+
+
+
+
+    function lichtheader() {
+        var element = document.getElementById("header1");
+        element.classList.toggle("lichtheader");
+    }
+
+    function lichtheader2() {
+        var element = document.getElementById("header2");
+        element.classList.toggle("lichtheader2");
+    }
+
+    function licht() {
+        var element = document.body;
+        element.classList.toggle("licht");
+    }
+
+    function lichtfooter() {
+        var element = document.getElementById("footer");
+        element.classList.toggle("lichtfooter");
+    }
+</script>

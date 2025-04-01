@@ -333,8 +333,51 @@ footer {
 
 }
 
-/*maakt het contrast groter als je op de contrast knop klikt*/
+/*voor de licht en dark knoppen*/
 
-.kleur {
-    background-color: #fbfbfb;
+.mystyle {
+
+    background-color: black;
+
 }
+
+.darkheader {
+    background-color: #573511
+}
+
+.darkheader2 {
+
+    background-color: #7c352e;
+    width: 100vw;
+    height: 3vw;
+}
+
+.dark {
+    background-color: #33312f;
+    color: white;
+}
+
+.darkfooter {
+    background-color: #573511;
+
+}
+
+.lichtheader {
+    background-color: #e48d2f;
+}
+
+.lichtheader2 {
+
+    background-color:  #dd5e51;
+}
+
+.licht {
+    background-color: #7d6e5b;
+    color: rgb(30, 18, 18);
+}
+
+.lichtfooter {
+    background-color: #e48d2f;
+
+}
+
