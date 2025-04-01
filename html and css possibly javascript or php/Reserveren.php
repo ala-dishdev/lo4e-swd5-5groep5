@@ -31,5 +31,7 @@
             <input type="submit" onclick="alert('Verzonden')" value="Send">
         </knop>
     </main>
-  
+    <footer>
+        <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
+    </footer>
 </body>

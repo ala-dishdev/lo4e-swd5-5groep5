@@ -20,7 +20,7 @@
     <link rel="icon" href="fotos/logo_vis.png" type="image/x-icon">
     <!-- link naar de stylesheet-->
     <link rel="stylesheet" href="styletijs.css">
-    <link rel="javaschript" href="toegang.js">
+    <script src="toegang.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Julee' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Jua' rel='stylesheet'>
 </head>
@@ -35,132 +35,15 @@
             <li><a href="tijden.php">Openingstijden en Locatie</a></li>
         </nav>
         <img src="fotos/logo.png" alt="logo" class="logo">
+        
     </header>
 
-    <div id="header2" class="sushi">
-        <button type="button" onclick=" contrast(); contrastheader()" id="contrastknop">Verhoog contrast</button>
-        <button class="dark" type="button" onclick=" darkheader(); darkheader2(); dark(); darkfooter()">Dark mode</button>
-        <button class="licht" type="button" onclick=" lichtheader(); lichtheader2(); licht(); lichtfooter()">licht mode</button>
-        
-        <div id="myDIV"></div>
-    </div>
+    <div class="sushi"></div>
 
     <footer id="footer">
+        
+    <button id="darkModeToggle">Dark Mode</button>
         <p>&copy; 2025 Umami Sushi. Alle rechten voorbehouden.</p>
     </footer>
 
 </body>
-
-<style>
-    .hoog {
-
-        background-color: black;
-        color: white;
-    }
-
-    .hoogheader{
-        background-color: white;
-        color: black;
-    }
-
-    .darkheader {
-        background-color: #573511
-    }
-
-    .darkheader2 {
-
-        background-color: #7c352e;
-        width: 100vw;
-        height: 3vw;
-    }
-
-    .dark {
-        background-color: #33312f;
-        color: white;
-    }
-
-    .darkfooter {
-        background-color: #573511;
-
-    }
-
-    .lichtheader {
-        background-color: #e48d2f;
-    }
-
-    .lichtheader2 {
-
-        background-color:  #dd5e51;
-    }
-
-    .licht {
-        background-color: #7d6e5b;
-        color: rgb(30, 18, 18);
-    }
-
-    .lichtfooter {
-        background-color: #e48d2f;
-
-    }
-</style>
-
-
-
-<script>
-    function contrast() {
-        var element = document.body;
-        element.classList.toggle("hoog");
-    }
-
-    function contrastheader() {
-        var element = document.getElementById("header1");
-        element.classList.toggle("hoogheader");
-    }
-
-
-    function darkheader() {
-        var element = document.getElementById("header1");
-        element.classList.toggle("darkheader");
-    }
-
-    function darkheader2() {
-        var element = document.getElementById("header2");
-        element.classList.toggle("darkheader2");
-    }
-
-    function dark() {
-        var element = document.body;
-        element.classList.toggle("dark");
-    }
-
-    function darkfooter() {
-        var element = document.getElementById("footer");
-        element.classList.toggle("darkfooter");
-    }
-
-   
-
-
-
-
-
-    function lichtheader() {
-        var element = document.getElementById("header1");
-        element.classList.toggle("lichtheader");
-    }
-
-    function lichtheader2() {
-        var element = document.getElementById("header2");
-        element.classList.toggle("lichtheader2");
-    }
-
-    function licht() {
-        var element = document.body;
-        element.classList.toggle("licht");
-    }
-
-    function lichtfooter() {
-        var element = document.getElementById("footer");
-        element.classList.toggle("lichtfooter");
-    }
-</script>

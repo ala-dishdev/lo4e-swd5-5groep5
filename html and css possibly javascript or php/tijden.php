@@ -1,6 +1,5 @@
-
-<link rel="stylesheet" href="styletijs.css">
 <?php include "header.php" ?>
+<link rel="stylesheet" href="styletijs.css">
 <body>
     <main>        
 

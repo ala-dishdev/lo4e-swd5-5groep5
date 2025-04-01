@@ -5,6 +5,7 @@ html {
 
 
 
+
 /* header */
 
 header {
@@ -181,6 +182,11 @@ main {
 
 /* grid voor openingstijden */
 
+.days-container {
+    /* in het midden met vaste max breedte */
+
+}
+
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -277,102 +283,39 @@ footer {
 
 
 
-@media (prefers-color-scheme: dark) {
-    header {
-        background-color: #573511
-    }
 
-    .sushi {
-        background-color:
-            #7c352e;
-        width: 100vw;
-        height: 3vw;
-    }
+        /* Dark Mode-knop */
+        #darkModeToggle {
+            padding: 10px 15px;
+            background-color: #e48d2f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
 
-    body {
-        background-color: #33312f;
-        color: white;
-    }
+        #darkModeToggle:hover {
+            background-color: #c67624;
+        }
 
-    footer {
-        background-color: #573511;
+        /* Dark Mode stijlen */
+        .dark-mode {
+            background-color: #33312f;
+            color: white;
+        }
 
-    }
+        .dark-mode header {
+            background-color: #573511;
+        }
 
-    .day-box {
-        background-color: darkgray;
-        color: black;
-    }
+        .dark-mode footer {
+            background-color: #573511;
+        }
 
-    .form-container {
-        background-color: darkgray;
-        color: black;
-    }
-
-    body {
-
-        background-color: #33312f;
-        color: white;
-    }
-
-}
-
-/*maakt de achtergrond lichter als lichtmode aanstaat*/
-@media (prefers-color-scheme: licht) {
-
-    body {
-        background-color: #fbfbfb;
-        color: rgb(0, 0, 0);
-    }
-
-
-}
-
-/*voor de licht en dark knoppen*/
-
-.mystyle {
-
-    background-color: black;
-
-}
-
-.darkheader {
-    background-color: #573511
-}
-
-.darkheader2 {
-
-    background-color: #7c352e;
-    width: 100vw;
-    height: 3vw;
-}
-
-.dark {
-    background-color: #33312f;
-    color: white;
-}
-
-.darkfooter {
-    background-color: #573511;
-
-}
-
-.lichtheader {
-    background-color: #e48d2f;
-}
-
-.lichtheader2 {
-
-    background-color:  #dd5e51;
-}
-
-.licht {
-    background-color: #7d6e5b;
-    color: rgb(30, 18, 18);
-}
-
-.lichtfooter {
-    background-color: #e48d2f;
-
-}
+        .dark-mode #darkModeToggle {
+            background-color: white;
+            color: #333;
+        }
 

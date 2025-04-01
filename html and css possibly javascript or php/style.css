@@ -96,7 +96,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif;
-    background-color: #2d2d2d;
+
     color: #fff;
 }
 
@@ -149,12 +149,6 @@ main {
     max-width: 80%;
     margin: auto;    
 
-}
-.sushi {
-    background-color:
-        #dd5e51;
-    width: 100vw;
-    height: 3vw;
 }
 /* Footer onderaan de pagina */
 
