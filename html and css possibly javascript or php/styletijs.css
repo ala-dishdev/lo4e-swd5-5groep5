@@ -181,11 +181,6 @@ main {
 
 /* grid voor openingstijden */
 
-.days-container {
-    /* in het midden met vaste max breedte */
-
-}
-
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
