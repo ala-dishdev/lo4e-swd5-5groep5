@@ -41,7 +41,7 @@
         <button type="button" onclick=" contrast()" id="contrastknop">Verhoog contrast</button>
         <button type="button" onclick=" darkheader(); darkheader2(); dark(); darkfooter()">Dark mode</button>
         <button type="button" onclick=" lichtheader(); lichtheader2(); licht(); lichtfooter()">licht mode</button>
-        <button onclick="myFunction()">Try it</button>
+        
         <div id="myDIV"></div>
     </div>
 
