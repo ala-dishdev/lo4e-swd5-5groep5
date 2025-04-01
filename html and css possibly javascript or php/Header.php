@@ -52,10 +52,10 @@
 </body>
 
 <style>
-    .mystyle {
+    .hoog {
 
         background-color: black;
-
+        color: white;
     }
 
     .darkheader {
@@ -104,7 +104,7 @@
 <script>
     function contrast() {
         var element = document.body;
-        element.classList.toggle("mystyle");
+        element.classList.toggle("hoog");
     }
 
     function darkheader() {
