@@ -39,8 +39,8 @@
 
     <div id="header2" class="sushi">
         <button type="button" onclick=" contrast()" id="contrastknop">Verhoog contrast</button>
-        <button type="button" onclick=" darkheader(); darkheader2(); dark(); darkfooter()">Dark mode</button>
-        <button type="button" onclick=" lichtheader(); lichtheader2(); licht(); lichtfooter()">licht mode</button>
+        <button class="dark" type="button" onclick=" darkheader(); darkheader2(); dark(); darkfooter()">Dark mode</button>
+        <button class="licht" type="button" onclick=" lichtheader(); lichtheader2(); licht(); lichtfooter()">licht mode</button>
         
         <div id="myDIV"></div>
     </div>
