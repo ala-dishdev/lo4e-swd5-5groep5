@@ -383,7 +383,22 @@ footer {
         background-color:  #dd5e51;
     }
 
+<<<<<<< HEAD
     footer{
         background-color: #e48d2f;
     }
 }
+=======
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+>>>>>>> 07c5a4c01cbcdae14a3d5436d1da24211c6e9772
