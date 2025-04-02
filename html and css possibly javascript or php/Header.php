@@ -45,7 +45,11 @@
     </header>
 
     <div id="header2" class="sushi">
-        <button type="button" onclick="change_body_class('high_contrast')">Verhoog contrast</button>
+        <button 
+        type="button" 
+        onclick="change_body_class('high_contrast')">
+        Verhoog contrast
+        </button>
         <button 
             class="button_dark" 
             type="button" 
@@ -53,7 +57,12 @@
             Dark mode
         </button>
         
-        <button class="button_light" type="button" onclick="change_body_class('light')">Light mode</button>        
+        <button 
+        class="button_light"
+        type="button" 
+        onclick="change_body_class('light')">
+        Light mode
+        </button>        
     </div>
 
     <footer id="footer">
