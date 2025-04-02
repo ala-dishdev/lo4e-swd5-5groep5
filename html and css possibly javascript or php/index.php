@@ -8,11 +8,20 @@
     <link rel="stylesheet" href="style.css">
     <?php include "header.php"?>
 </head>
-<body>
+<body class="default">
   
     <main>
         <section class="text">
-        <iframe class="ytlink" width="560" height="315" src="https://www.youtube.com/embed/0VB_DrsHDQ0?si=OfPJtUZUWl7KhMtC" title="sushi vid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe 
+            class="ytlink" 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/0VB_DrsHDQ0?si=OfPJtUZUWl7KhMtC" 
+            title="sushi vid" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
             <p>Hier bij Umami Sushi hebben wij jaren gespendeerd en duizenden euros uitgegeven om de beste chefs en gerechten te verkrijgen zodat u de beste ervaring heeft die u ooit in een sushi restaurant heeft gehad.</p>
         </section>
         <section class="intro">

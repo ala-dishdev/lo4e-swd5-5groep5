@@ -283,10 +283,7 @@ footer {
     }
 
     .sushi {
-        background-color:
-            #7c352e;
-        width: 100vw;
-        height: 3vw;
+        background-color: #7c352e;
     }
 
     body {
@@ -296,7 +293,6 @@ footer {
 
     footer {
         background-color: #573511;
-
     }
 
     .day-box {
@@ -307,18 +303,12 @@ footer {
     .form-container {
         background-color: darkgray;
         color: black;
-    }
-
-    body {
-
-        background-color: #33312f;
-        color: white;
-    }
+    }   
 
 }
 
 /*maakt de achtergrond lichter als lichtmode aanstaat*/
-@media (prefers-color-scheme: licht) {
+@media (prefers-color-scheme: light) {
 
     body {
         background-color: #fbfbfb;
@@ -330,49 +320,70 @@ footer {
 
 /*voor de licht en dark knoppen*/
 
-.mystyle {
+.button_dark {
+    background-color: #33312f;
+    color: white;
+}
 
+.button_light {
+    background-color: #7d6e5b;
+    color: rgb(30, 18, 18);
+}
+
+/* styling van de pagina die anders wordt als je op een knop drukt */
+
+.high_contrast {
     background-color: black;
+    color: white;
 
-}
-
-.darkheader {
-    background-color: #573511
-}
-
-.darkheader2 {
-
-    background-color: #7c352e;
-    width: 100vw;
-    height: 3vw;
+    header{
+        background-color: black;       
+    }
 }
 
 .dark {
     background-color: #33312f;
     color: white;
+
+    header{
+        background-color: #573511;
+    }
+
+    .sushi{
+        /* eigelijk header2 */
+        background-color: #7c352e;
+    }
+
+    footer{
+        background-color: #573511;
+    }
+
+    .day-box {
+        background-color: darkgray;
+        color: black;
+    }
+
+    .form-container {
+        background-color: darkgray;
+        color: black;
+    }
 }
 
-.darkfooter {
-    background-color: #573511;
 
-}
-
-.lichtheader {
-    background-color: #e48d2f;
-}
-
-.lichtheader2 {
-
-    background-color:  #dd5e51;
-}
-
-.licht {
+.light{
     background-color: #7d6e5b;
     color: rgb(30, 18, 18);
+
+    header{
+        background-color: #e48d2f;
+    }
+
+    .sushi{
+        /* eigelijk header2 */
+        background-color:  #dd5e51;
+    }
+
+    footer{
+        background-color: #e48d2f;
+    }
 }
-
-.lichtfooter {
-    background-color: #e48d2f;
-
-}
-

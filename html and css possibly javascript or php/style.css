@@ -1,7 +1,7 @@
 
 
 
-header>nav {
+/* header>nav {
     flex: 6;
     display: flex;
     align-self: center;
@@ -9,7 +9,7 @@ header>nav {
     list-style-type: none;
     font-size: 24px;
     ;
-} 
+}  */
 
 a:link {
     text-decoration: none;
@@ -60,13 +60,10 @@ a:visited {
 
     header {
         height: 50px;
-
     }
 
     header>nav {
-
-        font-size: 20px;
-        
+        font-size: 20px;        
     }
     /* YouTube Video */
 
@@ -89,8 +86,8 @@ a:visited {
     padding: 20px;
 }
 /* Algemene opmaak */
-html, body {
-    height: 100%; /* Zorgt ervoor dat de pagina altijd de volledige hoogte gebruikt */
+/* html, body {
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -98,10 +95,10 @@ html, body {
     font-family: 'Jua', 'Julee' , 'Times', 'Times New Roman', serif;
     background-color: #2d2d2d;
     color: #fff;
-}
+} */
 
 /* Navigatiebalk */
-nav {
+/* nav {
     list-style: none;
     display: flex;
     gap: 20px;
@@ -110,8 +107,8 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
-}
+    font-size: 24px;
+} */
 
 /* Main content */
 main {
@@ -131,7 +128,6 @@ main {
 }
 
 
-
 /* Slogan */
 .slogan {
     font-style: italic;
@@ -139,7 +135,6 @@ main {
     font-size: 50px;
     text-align: center;
 }
-
 
 
 /* Tekstgrootte aanpassen */
