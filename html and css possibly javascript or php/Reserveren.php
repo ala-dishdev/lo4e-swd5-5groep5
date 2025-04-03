@@ -31,5 +31,6 @@
             <input type="submit" onclick="alert('Verzonden')" value="Send">
         </knop>
     </main>
-  
+    <img class="space" src="fotos/sushiphoto4.png" alt="Assorted sushi">
+    <img class="space" src="fotos/sushiphoto4.png" alt="Assorted sushi">
 </body>
