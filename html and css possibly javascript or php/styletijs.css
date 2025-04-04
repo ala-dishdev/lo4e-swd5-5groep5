@@ -308,7 +308,7 @@ footer {
 }
 
 /*maakt de achtergrond lichter als lichtmode aanstaat*/
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
 
     body {
         background-color: #fbfbfb;
@@ -316,7 +316,7 @@ footer {
     }
 
 
-}
+} */
 
 /*voor de licht en dark knoppen*/
 
